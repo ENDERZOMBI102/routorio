@@ -1,0 +1,13 @@
+plugins {
+    id( "java" )
+}
+
+repositories {
+    mavenCentral()
+    maven { url = "https://jitpack.io" }
+}
+
+dependencies {
+    implementation( "com.github.Anuken:MindustryJitpack:v143" )
+    implementation( "com.github.Anuken.Arc:arc-core:v143" )
+}
